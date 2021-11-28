@@ -1,0 +1,107 @@
+@charset "utf-8";
+/*contact us*/
+
+.content{
+    width:80%;
+    margin:5rem auto;
+    max-width:1200px;
+    min-width:900px;
+    text-align:left;
+    overflow:hidden;
+    display: block;
+    font-family: PingFang SC,Avenir,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 10px;
+    
+}
+
+.contact_info_box{
+    width:48%;
+    height: 60rem;
+    background-image: radial-gradient(29% 93%,#262b50 0,#181635 94%);
+    box-shadow: 0 19px 32px 0 #aaa9bf;
+    padding: 4rem 1rem 7rem 2rem;
+    margin-right: 3%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    text-align: left;
+    font-family: PingFang SC,Avenir,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 10px;
+}
+.info_item img{
+    margin: 0 auto;
+}
+
+.info_title{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    margin:0;
+
+}
+
+.line{
+    display: inline-block;
+    background: #ff9d9e;
+    width: 8rem;
+    height: 0.5rem;
+    margin: 0;
+    text-align: left;
+}
+
+.info_item{
+    margin: 2rem 0 0 0;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: left;
+    font-family: PingFang SC,Avenir,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.info_item p{
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.info_item img{
+    margin-left:20%;
+    margin-top:5%;
+    width:50%;
+}
+.info_item span{
+        color: #20b8e7;
+        /* color:#9966FF;
+        color: #e9d229; */
+}
+
+.contact_info_box span{
+    color: #20b8e7;
+    /* color:#9966FF;
+    color: #e9d229; */
+}
+
+.map_box{
+    width:48%;
+    height: 60rem;
+    display: inline-block;
+    margin-right: 0%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    z-index:0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+.bm_view{
+    width:100%;
+    height:100%;
+}
+
+.BMap_bubble_title {
+  
+    font-size:19px;
+
+}
